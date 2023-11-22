@@ -1,0 +1,36 @@
+[0.706s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[1.155s] [ 16%] Built target smartphone
+[1.162s] [ 33%] Built target cpp_node
+[1.184s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.311s] [ 58%] Built target add_two_ints_server
+[15.690s] [ 66%] [32m[1mLinking CXX executable robot_news_station[0m
+[16.421s] [ 66%] Built target robot_news_station
+[16.490s] [ 83%] Built target add_two_ints_client
+[16.553s] [100%] Built target add_two_ints_no_oop_client
+[16.585s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[16.723s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg
+[16.737s] -- Install configuration: ""
+[16.739s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[16.739s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[16.743s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[16.744s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[16.745s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[16.750s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_no_oop_client
+[16.754s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[16.756s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[16.757s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[16.757s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[16.758s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[16.770s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[16.770s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[16.770s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[16.770s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[16.771s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[16.771s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[16.771s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[16.773s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[16.773s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[16.773s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[16.773s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[16.791s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg

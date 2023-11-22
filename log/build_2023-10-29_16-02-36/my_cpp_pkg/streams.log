@@ -1,0 +1,26 @@
+[0.252s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.409s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.474s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[12.297s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[12.851s] [100%] Built target cpp_node
+[12.904s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[13.094s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg
+[13.123s] -- Install configuration: ""
+[13.128s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[13.131s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[13.132s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[13.133s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[13.134s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[13.135s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[13.139s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[13.139s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[13.140s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[13.140s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[13.141s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[13.141s] -- Up-to-date: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[13.159s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg

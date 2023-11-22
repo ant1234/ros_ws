@@ -1,0 +1,24 @@
+[1.458s] Invoking command in '/home/ant/ros2_ws/build/my_py_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ant/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.854s] running develop
+[2.103s] running egg_info
+[2.103s] writing my_py_pkg.egg-info/PKG-INFO
+[2.104s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.104s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.104s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.104s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.107s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.112s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.114s] running build_ext
+[2.114s] Creating /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.115s] Installing add_two_ints_client script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.116s] Installing add_two_ints_client_no_oop script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.116s] Installing add_two_ints_server script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.116s] Installing number_count script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.116s] Installing number_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.117s] Installing py_node script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.117s] Installing robot_news_station script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.118s] Installing smartphone script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.118s] 
+[2.118s] Installed /home/ant/ros2_ws/build/my_py_pkg
+[2.118s] running install_data
+[2.180s] Invoked command in '/home/ant/ros2_ws/build/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ant/ros2_ws/build/my_py_pkg/build --no-deps install_data

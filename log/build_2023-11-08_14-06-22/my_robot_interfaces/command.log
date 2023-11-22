@@ -1,0 +1,2 @@
+Invoking command in '/home/ant/ros2_ws/build/my_robot_interfaces': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+Invoked command in '/home/ant/ros2_ws/build/my_robot_interfaces' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_robot_interfaces -- -j4 -l4

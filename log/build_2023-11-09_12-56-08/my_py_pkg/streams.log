@@ -1,0 +1,58 @@
+[2.964s] Invoking command in '/home/ant/ros2_ws/src/my_py_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[3.477s] running egg_info
+[3.480s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.480s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.480s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.481s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.481s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.485s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.487s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.487s] running build
+[3.487s] running build_py
+[3.489s] running install
+[3.490s] running install_lib
+[3.492s] creating /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.492s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.492s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/py_node_template.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.493s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.494s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.495s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_no_oop.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.495s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_count.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.495s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.496s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.496s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.496s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.496s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.496s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.497s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[3.500s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/py_node_template.py to py_node_template.cpython-310.pyc
+[3.500s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[3.501s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[3.502s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_no_oop.py to add_two_ints_no_oop.cpython-310.pyc
+[3.505s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_count.py to number_count.cpython-310.pyc
+[3.507s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[3.508s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[3.518s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[3.520s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.521s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[3.521s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[3.522s] running install_data
+[3.522s] creating /home/ant/ros2_ws/install/my_py_pkg/share/ament_index
+[3.522s] creating /home/ant/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[3.523s] creating /home/ant/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.523s] copying resource/my_py_pkg -> /home/ant/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.523s] copying package.xml -> /home/ant/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[3.523s] running install_egg_info
+[3.524s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.530s] running install_scripts
+[3.581s] Installing add_two_ints_client script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.581s] Installing add_two_ints_client_no_oop script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.582s] Installing add_two_ints_server script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.582s] Installing hw_status_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.582s] Installing number_count script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.582s] Installing number_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.582s] Installing py_node script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.583s] Installing robot_news_station script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.583s] Installing smartphone script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.584s] writing list of installed files to '/home/ant/ros2_ws/build/my_py_pkg/install.log'
+[3.671s] Invoked command in '/home/ant/ros2_ws/src/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

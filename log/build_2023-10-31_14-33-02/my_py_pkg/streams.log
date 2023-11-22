@@ -1,0 +1,19 @@
+[2.581s] Invoking command in '/home/ant/ros2_ws/build/my_py_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ant/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[3.021s] running develop
+[3.247s] running egg_info
+[3.247s] writing my_py_pkg.egg-info/PKG-INFO
+[3.256s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[3.257s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[3.257s] writing requirements to my_py_pkg.egg-info/requires.txt
+[3.257s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[3.263s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.265s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[3.267s] running build_ext
+[3.267s] Creating /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[3.269s] Installing py_node script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.269s] Installing robot_news_station script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.270s] 
+[3.270s] Installed /home/ant/ros2_ws/build/my_py_pkg
+[3.270s] running install_data
+[3.270s] copying package.xml -> /home/ant/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[3.331s] Invoked command in '/home/ant/ros2_ws/build/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ant/ros2_ws/build/my_py_pkg/build --no-deps install_data

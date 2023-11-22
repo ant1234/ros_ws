@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.001253] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001467] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001593] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001679] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001735] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.091879] (-) TimerEvent: {}
+[0.192313] (-) TimerEvent: {}
+[0.293276] (-) TimerEvent: {}
+[0.303410] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.304920] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.306516] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ant/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ant/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ant'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/home/ant/ros2_ws/install/more_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ant'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ant/.nvm/versions/node/v20.9.0/bin'), ('NVM_INC', '/home/ant/.nvm/versions/node/v20.9.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1684'), ('SYSTEMD_EXEC_PID', '1902'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2654'), ('NVM_DIR', '/home/ant/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ant/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ant'), ('JOURNAL_STREAM', '8:32015'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ant/mongodb/mongodb-linux-x86_64-2.6.12/bin:/home/ant/.nvm/versions/node/v20.9.0/bin:/home/ant/mongodb/mongodb-linux-x86_64-2.6.12/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ant-ThinkPad-T460s:@/tmp/.ICE-unix/1839,unix/ant-ThinkPad-T460s:/tmp/.ICE-unix/1839'), ('INVOCATION_ID', 'e20bb11f7e3d4b29a43d5fc59710ebed'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.03VRE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6343a5c65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ant/ros2_ws/install/my_py_pkg:/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/more_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ant/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/ant/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/my_new_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/more_interfaces:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.393664] (-) TimerEvent: {}
+[0.495320] (-) TimerEvent: {}
+[0.580416] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[0.595391] (-) TimerEvent: {}
+[0.638745] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] Built target cpp_node\n'}
+[0.675994] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] Built target smartphone\n'}
+[0.692453] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.695539] (-) TimerEvent: {}
+[0.786930] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target add_two_ints_server\n'}
+[0.795733] (-) TimerEvent: {}
+[0.835647] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target add_two_ints_no_oop_client\n'}
+[0.896088] (-) TimerEvent: {}
+[0.928271] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target add_two_ints_client\n'}
+[0.996383] (-) TimerEvent: {}
+[1.100283] (-) TimerEvent: {}
+[1.201555] (-) TimerEvent: {}
+[1.306775] (-) TimerEvent: {}
+[1.407755] (-) TimerEvent: {}
+[1.513559] (-) TimerEvent: {}
+[1.614204] (-) TimerEvent: {}
+[1.714670] (-) TimerEvent: {}
+[1.815398] (-) TimerEvent: {}
+[1.916304] (-) TimerEvent: {}
+[2.017144] (-) TimerEvent: {}
+[2.118539] (-) TimerEvent: {}
+[2.218939] (-) TimerEvent: {}
+[2.319462] (-) TimerEvent: {}
+[2.420654] (-) TimerEvent: {}
+[2.521089] (-) TimerEvent: {}
+[2.621515] (-) TimerEvent: {}
+[2.722231] (-) TimerEvent: {}
+[2.824193] (-) TimerEvent: {}
+[2.925114] (-) TimerEvent: {}
+[3.026815] (-) TimerEvent: {}
+[3.127382] (-) TimerEvent: {}
+[3.227919] (-) TimerEvent: {}
+[3.328658] (-) TimerEvent: {}
+[3.429453] (-) TimerEvent: {}
+[3.530603] (-) TimerEvent: {}
+[3.631570] (-) TimerEvent: {}
+[3.736129] (-) TimerEvent: {}
+[3.840471] (-) TimerEvent: {}
+[3.951324] (-) TimerEvent: {}
+[4.054114] (-) TimerEvent: {}
+[4.155346] (-) TimerEvent: {}
+[4.256125] (-) TimerEvent: {}
+[4.359471] (-) TimerEvent: {}
+[4.461005] (-) TimerEvent: {}
+[4.562859] (-) TimerEvent: {}
+[4.663416] (-) TimerEvent: {}
+[4.764158] (-) TimerEvent: {}
+[4.865151] (-) TimerEvent: {}
+[4.966802] (-) TimerEvent: {}
+[5.067607] (-) TimerEvent: {}
+[5.168543] (-) TimerEvent: {}
+[5.269337] (-) TimerEvent: {}
+[5.382873] (-) TimerEvent: {}
+[5.486687] (-) TimerEvent: {}
+[5.589043] (-) TimerEvent: {}
+[5.690231] (-) TimerEvent: {}
+[5.791172] (-) TimerEvent: {}
+[5.893182] (-) TimerEvent: {}
+[5.994040] (-) TimerEvent: {}
+[6.101159] (-) TimerEvent: {}
+[6.209647] (-) TimerEvent: {}
+[6.311158] (-) TimerEvent: {}
+[6.412299] (-) TimerEvent: {}
+[6.513164] (-) TimerEvent: {}
+[6.616442] (-) TimerEvent: {}
+[6.718035] (-) TimerEvent: {}
+[6.819659] (-) TimerEvent: {}
+[6.921528] (-) TimerEvent: {}
+[7.022283] (-) TimerEvent: {}
+[7.122781] (-) TimerEvent: {}
+[7.223303] (-) TimerEvent: {}
+[7.323915] (-) TimerEvent: {}
+[7.424310] (-) TimerEvent: {}
+[7.524743] (-) TimerEvent: {}
+[7.625156] (-) TimerEvent: {}
+[7.725787] (-) TimerEvent: {}
+[7.826847] (-) TimerEvent: {}
+[7.928669] (-) TimerEvent: {}
+[8.029073] (-) TimerEvent: {}
+[8.129592] (-) TimerEvent: {}
+[8.230068] (-) TimerEvent: {}
+[8.330526] (-) TimerEvent: {}
+[8.430930] (-) TimerEvent: {}
+[8.531432] (-) TimerEvent: {}
+[8.632231] (-) TimerEvent: {}
+[8.732938] (-) TimerEvent: {}
+[8.833306] (-) TimerEvent: {}
+[8.933737] (-) TimerEvent: {}
+[9.034480] (-) TimerEvent: {}
+[9.135909] (-) TimerEvent: {}
+[9.236407] (-) TimerEvent: {}
+[9.337007] (-) TimerEvent: {}
+[9.437523] (-) TimerEvent: {}
+[9.538322] (-) TimerEvent: {}
+[9.638762] (-) TimerEvent: {}
+[9.739932] (-) TimerEvent: {}
+[9.840615] (-) TimerEvent: {}
+[9.938389] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ant/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotNewsStationNode::RobotNewsStationNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.938820] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ant/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:13:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.939043] (my_cpp_pkg) StderrLine: {'line': b'   13 |         int publish_frequency_ \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_parameter("publish_frequency").as_int();\n'}
+[9.939236] (my_cpp_pkg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.940813] (-) TimerEvent: {}
+[9.972400] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ant/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:16:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_frequency_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.972762] (my_cpp_pkg) StderrLine: {'line': b'   16 |         timer_ = this->create_wall_timer(std::chrono::milliseconds(\x1b[01;31m\x1b[Kpublish_frequency_\x1b[m\x1b[K), std::bind(&RobotNewsStationNode::publishNews, this));\n'}
+[9.972977] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.040920] (-) TimerEvent: {}
+[10.141306] (-) TimerEvent: {}
+[10.241748] (-) TimerEvent: {}
+[10.342807] (-) TimerEvent: {}
+[10.443496] (-) TimerEvent: {}
+[10.543912] (-) TimerEvent: {}
+[10.644602] (-) TimerEvent: {}
+[10.745699] (-) TimerEvent: {}
+[10.846133] (-) TimerEvent: {}
+[10.947836] (-) TimerEvent: {}
+[11.048756] (-) TimerEvent: {}
+[11.150451] (-) TimerEvent: {}
+[11.251652] (-) TimerEvent: {}
+[11.352742] (-) TimerEvent: {}
+[11.454688] (-) TimerEvent: {}
+[11.555199] (-) TimerEvent: {}
+[11.655712] (-) TimerEvent: {}
+[11.757171] (-) TimerEvent: {}
+[11.857921] (-) TimerEvent: {}
+[11.958333] (-) TimerEvent: {}
+[12.058823] (-) TimerEvent: {}
+[12.159334] (-) TimerEvent: {}
+[12.260563] (-) TimerEvent: {}
+[12.334879] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1\n'}
+[12.335255] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/robot_news_station.dir/all] Error 2\n'}
+[12.335562] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.339057] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[12.360680] (-) TimerEvent: {}
+[12.461084] (-) TimerEvent: {}
+[12.561509] (-) TimerEvent: {}
+[12.649628] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[12.661167] (-) EventReactorShutdown: {}

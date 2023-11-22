@@ -1,0 +1,5 @@
+  File "/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py", line 10
+    self.create_timer(0.5, self.timer_callback)
+    ^^^^
+SyntaxError: invalid syntax
+

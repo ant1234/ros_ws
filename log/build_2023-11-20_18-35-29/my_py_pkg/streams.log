@@ -1,0 +1,36 @@
+[2.105s] Invoking command in '/home/ant/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/more_interfaces:/home/ant/ros2_ws/install/my_robot_bringup:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/more_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.803s] running egg_info
+[2.804s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.804s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.804s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.805s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.805s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.809s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.810s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.810s] running build
+[2.811s] running build_py
+[2.811s] copying my_py_pkg/turtle_controller.py -> /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.812s] running install
+[2.813s] running install_lib
+[2.814s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.815s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[2.816s] running install_data
+[2.817s] running install_egg_info
+[2.819s] removing '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.820s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.821s] running install_scripts
+[2.861s] Installing add_two_ints_client script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.861s] Installing add_two_ints_client_no_oop script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.861s] Installing add_two_ints_server script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.862s] Installing battery_client script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.862s] Installing hw_status_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.862s] Installing led_panel script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.863s] Installing number_count script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.863s] Installing number_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.863s] Installing py_node script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.863s] Installing robot_news_station script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.864s] Installing smartphone script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.864s] Installing turtle_controller script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.864s] Installing turtle_spawner script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.864s] writing list of installed files to '/home/ant/ros2_ws/build/my_py_pkg/install.log'
+[2.962s] Invoked command in '/home/ant/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/more_interfaces:/home/ant/ros2_ws/install/my_robot_bringup:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/more_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+[0.317s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(py310) /usr/bin/cmake /home/ant/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_cpp_pkg
+[0.621s] -- The C compiler identification is GNU 11.4.0
+[0.858s] -- The CXX compiler identification is GNU 11.4.0
+[0.901s] -- Detecting C compiler ABI info
+[1.276s] -- Detecting C compiler ABI info - done
+[1.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.328s] -- Detecting C compile features
+[1.330s] -- Detecting C compile features - done
+[1.345s] -- Detecting CXX compiler ABI info
+[1.762s] -- Detecting CXX compiler ABI info - done
+[1.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.820s] -- Detecting CXX compile features
+[1.820s] -- Detecting CXX compile features - done
+[1.824s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.699s] -- Found Python3: /home/ant/anaconda3/envs/py310/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+[4.058s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[4.222s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.240s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.279s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.672s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.681s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.000s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.074s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.182s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.205s] -- Looking for pthread.h
+[5.363s] -- Looking for pthread.h - found
+[5.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.512s] -- Found Threads: TRUE  
+[5.840s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[6.261s] -- Configuring done
+[6.315s] -- Generating done
+[6.319s] -- Build files have been written to: /home/ant/ros2_ws/build/my_cpp_pkg

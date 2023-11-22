@@ -1,0 +1,35 @@
+[0.708s] Invoking command in '/home/ant/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(py310) /usr/bin/cmake /home/ant/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/more_interfaces
+[1.006s] -- The C compiler identification is GNU 11.4.0
+[1.460s] -- The CXX compiler identification is GNU 11.4.0
+[1.621s] -- Detecting C compiler ABI info
+[2.229s] -- Detecting C compiler ABI info - done
+[2.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.262s] -- Detecting C compile features
+[2.266s] -- Detecting C compile features - done
+[2.281s] -- Detecting CXX compiler ABI info
+[2.771s] -- Detecting CXX compiler ABI info - done
+[2.795s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.797s] -- Detecting CXX compile features
+[2.799s] -- Detecting CXX compile features - done
+[2.863s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.355s] -- Found Python3: /home/ant/anaconda3/envs/py310/bin/python3.10 (found version "3.10.13") found components: Interpreter 
+[4.661s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.717s] Traceback (most recent call last):
+[4.717s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.717s]     from catkin_pkg.package import parse_package_string
+[4.717s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.728s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.728s]   execute_process(/home/ant/anaconda3/envs/py310/bin/python3.10
+[4.729s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.729s]   /home/ant/ros2_ws/src/more_interfaces/package.xml
+[4.729s]   /home/ant/ros2_ws/build/more_interfaces/ament_cmake_core/package.cmake)
+[4.729s]   returned error code 1
+[4.729s] Call Stack (most recent call first):
+[4.737s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.737s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.737s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[4.737s] 
+[4.738s] [0m
+[4.738s] -- Configuring incomplete, errors occurred!
+[4.738s] See also "/home/ant/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[4.746s] Invoked command in '/home/ant/ros2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(py310) /usr/bin/cmake /home/ant/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/more_interfaces

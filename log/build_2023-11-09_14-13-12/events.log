@@ -1,0 +1,534 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000629] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000678] (my_new_robot_interfaces) JobQueued: {'identifier': 'my_new_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000740] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000811] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('more_interfaces', '/home/ant/ros2_ws/install/more_interfaces'), ('my_robot_interfaces', '/home/ant/ros2_ws/install/my_robot_interfaces')])}
+[0.000867] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.091078] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.098566] (-) TimerEvent: {}
+[0.199230] (-) TimerEvent: {}
+[0.221019] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.299380] (-) TimerEvent: {}
+[0.337338] (my_new_robot_interfaces) JobStarted: {'identifier': 'my_new_robot_interfaces'}
+[0.399596] (-) TimerEvent: {}
+[0.476796] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.477878] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ant/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/more_interfaces'], 'cwd': '/home/ant/ros2_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ant'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ant'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('PYENV_SHELL', 'bash'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1630'), ('SYSTEMD_EXEC_PID', '1847'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16802'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ant/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ant'), ('JOURNAL_STREAM', '8:30564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ant/.pyenv/shims:/home/ant/.pyenv/bin:/home/ant/anaconda3/bin:/home/ant/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ant-ThinkPad-T460s:@/tmp/.ICE-unix/1798,unix/ant-ThinkPad-T460s:/tmp/.ICE-unix/1798'), ('INVOCATION_ID', 'd6229077ad914f219e9b7a7d5b90a717'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PWZOD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6343a5c65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ant/ros2_ws/install/my_py_pkg:/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ant/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ant/ros2_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ant/anaconda3/bin/conda'), ('PYENV_ROOT', '/home/ant/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/ant/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/my_new_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ant/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.484536] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.487262] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ant/ros2_ws/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_robot_interfaces'], 'cwd': '/home/ant/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ant'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ant'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('PYENV_SHELL', 'bash'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1630'), ('SYSTEMD_EXEC_PID', '1847'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16802'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ant/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ant'), ('JOURNAL_STREAM', '8:30564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ant/.pyenv/shims:/home/ant/.pyenv/bin:/home/ant/anaconda3/bin:/home/ant/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ant-ThinkPad-T460s:@/tmp/.ICE-unix/1798,unix/ant-ThinkPad-T460s:/tmp/.ICE-unix/1798'), ('INVOCATION_ID', 'd6229077ad914f219e9b7a7d5b90a717'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PWZOD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6343a5c65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ant/ros2_ws/install/my_py_pkg:/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ant/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ant/ros2_ws/build/my_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ant/anaconda3/bin/conda'), ('PYENV_ROOT', '/home/ant/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/ant/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/my_new_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ant/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.494398] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.494464] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.494533] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ant/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ant/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ant'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ant'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('PYENV_SHELL', 'bash'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1630'), ('SYSTEMD_EXEC_PID', '1847'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16802'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ant/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ant'), ('JOURNAL_STREAM', '8:30564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ant/.pyenv/shims:/home/ant/.pyenv/bin:/home/ant/anaconda3/bin:/home/ant/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ant-ThinkPad-T460s:@/tmp/.ICE-unix/1798,unix/ant-ThinkPad-T460s:/tmp/.ICE-unix/1798'), ('INVOCATION_ID', 'd6229077ad914f219e9b7a7d5b90a717'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PWZOD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6343a5c65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ant/ros2_ws/install/my_py_pkg:/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ant/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ant/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ant/anaconda3/bin/conda'), ('PYENV_ROOT', '/home/ant/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/ant/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/my_new_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ant/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.499759] (-) TimerEvent: {}
+[0.561473] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.562068] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.575017] (my_new_robot_interfaces) JobProgress: {'identifier': 'my_new_robot_interfaces', 'progress': 'cmake'}
+[0.575418] (my_new_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ant/ros2_ws/src/my_new_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_new_robot_interfaces'], 'cwd': '/home/ant/ros2_ws/build/my_new_robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ant'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces/lib:/home/ant/ros2_ws/install/my_new_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ant'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('PYENV_SHELL', 'bash'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1630'), ('SYSTEMD_EXEC_PID', '1847'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16802'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ant/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ant'), ('JOURNAL_STREAM', '8:30564'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ant'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ant/.pyenv/shims:/home/ant/.pyenv/bin:/home/ant/anaconda3/bin:/home/ant/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ant-ThinkPad-T460s:@/tmp/.ICE-unix/1798,unix/ant-ThinkPad-T460s:/tmp/.ICE-unix/1798'), ('INVOCATION_ID', 'd6229077ad914f219e9b7a7d5b90a717'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PWZOD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6343a5c65b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ant/ros2_ws/install/my_py_pkg:/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ant/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ant/ros2_ws/build/my_new_robot_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ant/anaconda3/bin/conda'), ('PYENV_ROOT', '/home/ant/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/ant/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/ant/ros2_ws/install/my_new_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ant/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ant/ros2_ws/install/my_robot_interfaces:/home/ant/ros2_ws/install/my_new_robot_interfaces:/home/ant/ros2_ws/install/my_cpp_pkg:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.600076] (-) TimerEvent: {}
+[0.649887] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700518] (-) TimerEvent: {}
+[0.802573] (-) TimerEvent: {}
+[0.858791] (my_cpp_pkg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.902999] (-) TimerEvent: {}
+[0.927042] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.942496] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[0.945728] (my_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[1.003130] (-) TimerEvent: {}
+[1.104250] (-) TimerEvent: {}
+[1.206158] (-) TimerEvent: {}
+[1.240082] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.266130] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.271263] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.279265] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.306276] (-) TimerEvent: {}
+[1.406800] (-) TimerEvent: {}
+[1.441975] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.506944] (-) TimerEvent: {}
+[1.558373] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.567378] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.577187] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.607052] (-) TimerEvent: {}
+[1.704536] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.707164] (-) TimerEvent: {}
+[1.776328] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.792106] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.807291] (-) TimerEvent: {}
+[1.810716] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.907573] (-) TimerEvent: {}
+[2.008606] (-) TimerEvent: {}
+[2.025301] (my_new_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.025596] (my_new_robot_interfaces) StderrLine: {'line': b'  execute_process(/home/ant/anaconda3/envs/py310/bin/python3.10 -m\n'}
+[2.026857] (my_new_robot_interfaces) StderrLine: {'line': b'  rosidl_adapter --package-name my_new_robot_interfaces --arguments-file\n'}
+[2.027172] (my_new_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_new_robot_interfaces/rosidl_adapter__arguments__my_new_robot_interfaces.json\n'}
+[2.027344] (my_new_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.027508] (my_new_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_new_robot_interfaces/rosidl_adapter/my_new_robot_interfaces\n'}
+[2.027649] (my_new_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.027788] (my_new_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_new_robot_interfaces/rosidl_adapter/my_new_robot_interfaces.idls)\n'}
+[2.027928] (my_new_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.028065] (my_new_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.028206] (my_new_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.028342] (my_new_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.028473] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[2.028612] (my_new_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.028746] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[2.028909] (my_new_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.029056] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.029194] (my_new_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.029329] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.029493] (my_new_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.029634] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[2.029775] (my_new_robot_interfaces) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[2.029900] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[2.030032] (my_new_robot_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[2.030186] (my_new_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[2.030342] (my_new_robot_interfaces) StderrLine: {'line': b'      import em\n'}
+[2.072517] (my_new_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.072807] (my_new_robot_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[2.072967] (my_new_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.073125] (my_new_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.073276] (my_new_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.073420] (my_new_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[2.073561] (my_new_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.073715] (my_new_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.073863] (my_new_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.074034] (my_new_robot_interfaces) StdoutLine: {'line': b'See also "/home/ant/ros2_ws/build/my_new_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.074195] (my_new_robot_interfaces) CommandEnded: {'returncode': 1}
+[2.082647] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.108715] (-) TimerEvent: {}
+[2.168397] (more_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.168688] (more_interfaces) StderrLine: {'line': b'  execute_process(/home/ant/anaconda3/envs/py310/bin/python3.10 -m\n'}
+[2.168886] (more_interfaces) StderrLine: {'line': b'  rosidl_adapter --package-name more_interfaces --arguments-file\n'}
+[2.169035] (more_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/more_interfaces/rosidl_adapter__arguments__more_interfaces.json\n'}
+[2.169186] (more_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.169334] (more_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/more_interfaces/rosidl_adapter/more_interfaces\n'}
+[2.169481] (more_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.169639] (more_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/more_interfaces/rosidl_adapter/more_interfaces.idls)\n'}
+[2.169797] (more_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.169931] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.170078] (more_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.170242] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.170375] (more_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[2.170542] (more_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.170692] (more_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[2.170830] (more_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.170985] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.171137] (more_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.171283] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.171453] (more_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.171596] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[2.171738] (more_interfaces) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[2.171880] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[2.172030] (more_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[2.172171] (more_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[2.172312] (more_interfaces) StderrLine: {'line': b'      import em\n'}
+[2.172450] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.172594] (more_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[2.172733] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.172883] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.173021] (more_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.173158] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:32 (rosidl_generate_interfaces)\n'}
+[2.173292] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.173427] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.173700] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.173877] (more_interfaces) StdoutLine: {'line': b'See also "/home/ant/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.200616] (more_interfaces) CommandEnded: {'returncode': 1}
+[2.208842] (-) TimerEvent: {}
+[2.332376] (-) TimerEvent: {}
+[2.434142] (-) TimerEvent: {}
+[2.449792] (my_new_robot_interfaces) JobEnded: {'identifier': 'my_new_robot_interfaces', 'rc': 1}
+[2.455764] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 'SIGINT'}
+[2.534275] (-) TimerEvent: {}
+[2.654618] (-) TimerEvent: {}
+[2.756150] (-) TimerEvent: {}
+[2.762926] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[2.763251] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/home/ant/anaconda3/envs/py310/bin/python3.10 -m\n'}
+[2.765110] (my_robot_interfaces) StderrLine: {'line': b'  rosidl_adapter --package-name my_robot_interfaces --arguments-file\n'}
+[2.765619] (my_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json\n'}
+[2.766430] (my_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[2.766663] (my_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces\n'}
+[2.766854] (my_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[2.767032] (my_robot_interfaces) StderrLine: {'line': b'  /home/ant/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)\n'}
+[2.767223] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.767403] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.767578] (my_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.767747] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.767923] (my_robot_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[2.768094] (my_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[2.768261] (my_robot_interfaces) StderrLine: {'line': b'    File "/home/ant/anaconda3/envs/py310/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[2.778070] (my_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.778324] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.778540] (my_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.778727] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[2.778909] (my_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[2.779081] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[2.779259] (my_robot_interfaces) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[2.779432] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[2.779603] (my_robot_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[2.779771] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[2.779940] (my_robot_interfaces) StderrLine: {'line': b'      import em\n'}
+[2.780107] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.780284] (my_robot_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[2.780454] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.780638] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.780809] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.789395] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[2.790028] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[2.790398] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.798174] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.798420] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/ant/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.856705] (-) TimerEvent: {}
+[2.866683] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 'SIGINT'}
+[2.956786] (-) TimerEvent: {}
+[3.057382] (-) TimerEvent: {}
+[3.157997] (-) TimerEvent: {}
+[3.258720] (-) TimerEvent: {}
+[3.359406] (-) TimerEvent: {}
+[3.460440] (-) TimerEvent: {}
+[3.561638] (-) TimerEvent: {}
+[3.662772] (-) TimerEvent: {}
+[3.766385] (-) TimerEvent: {}
+[3.868801] (-) TimerEvent: {}
+[3.969649] (-) TimerEvent: {}
+[4.070569] (-) TimerEvent: {}
+[4.171471] (-) TimerEvent: {}
+[4.272807] (-) TimerEvent: {}
+[4.373695] (-) TimerEvent: {}
+[4.476289] (-) TimerEvent: {}
+[4.577684] (-) TimerEvent: {}
+[4.679031] (-) TimerEvent: {}
+[4.780314] (-) TimerEvent: {}
+[4.884346] (-) TimerEvent: {}
+[4.985538] (-) TimerEvent: {}
+[5.086567] (-) TimerEvent: {}
+[5.187705] (-) TimerEvent: {}
+[5.288855] (-) TimerEvent: {}
+[5.391220] (-) TimerEvent: {}
+[5.492941] (-) TimerEvent: {}
+[5.594701] (-) TimerEvent: {}
+[5.695167] (-) TimerEvent: {}
+[5.795635] (-) TimerEvent: {}
+[5.896126] (-) TimerEvent: {}
+[5.996607] (-) TimerEvent: {}
+[6.097130] (-) TimerEvent: {}
+[6.198370] (-) TimerEvent: {}
+[6.300014] (-) TimerEvent: {}
+[6.400488] (-) TimerEvent: {}
+[6.501017] (-) TimerEvent: {}
+[6.601590] (-) TimerEvent: {}
+[6.702078] (-) TimerEvent: {}
+[6.802565] (-) TimerEvent: {}
+[6.903565] (-) TimerEvent: {}
+[7.004918] (-) TimerEvent: {}
+[7.105712] (-) TimerEvent: {}
+[7.206447] (-) TimerEvent: {}
+[7.309172] (-) TimerEvent: {}
+[7.414603] (-) TimerEvent: {}
+[7.515064] (-) TimerEvent: {}
+[7.615492] (-) TimerEvent: {}
+[7.715912] (-) TimerEvent: {}
+[7.816366] (-) TimerEvent: {}
+[7.916812] (-) TimerEvent: {}
+[8.017279] (-) TimerEvent: {}
+[8.117695] (-) TimerEvent: {}
+[8.218128] (-) TimerEvent: {}
+[8.318615] (-) TimerEvent: {}
+[8.419085] (-) TimerEvent: {}
+[8.519549] (-) TimerEvent: {}
+[8.620005] (-) TimerEvent: {}
+[8.720528] (-) TimerEvent: {}
+[8.821411] (-) TimerEvent: {}
+[8.921948] (-) TimerEvent: {}
+[9.023148] (-) TimerEvent: {}
+[9.124007] (-) TimerEvent: {}
+[9.224956] (-) TimerEvent: {}
+[9.325536] (-) TimerEvent: {}
+[9.426533] (-) TimerEvent: {}
+[9.527151] (-) TimerEvent: {}
+[9.627808] (-) TimerEvent: {}
+[9.729378] (-) TimerEvent: {}
+[9.830168] (-) TimerEvent: {}
+[9.930666] (-) TimerEvent: {}
+[10.031176] (-) TimerEvent: {}
+[10.131632] (-) TimerEvent: {}
+[10.232411] (-) TimerEvent: {}
+[10.332916] (-) TimerEvent: {}
+[10.433388] (-) TimerEvent: {}
+[10.534232] (-) TimerEvent: {}
+[10.635563] (-) TimerEvent: {}
+[10.737026] (-) TimerEvent: {}
+[10.840006] (-) TimerEvent: {}
+[10.941461] (-) TimerEvent: {}
+[11.042532] (-) TimerEvent: {}
+[11.143476] (-) TimerEvent: {}
+[11.244630] (-) TimerEvent: {}
+[11.345053] (-) TimerEvent: {}
+[11.446034] (-) TimerEvent: {}
+[11.547196] (-) TimerEvent: {}
+[11.647825] (-) TimerEvent: {}
+[11.749718] (-) TimerEvent: {}
+[11.851256] (-) TimerEvent: {}
+[11.952591] (-) TimerEvent: {}
+[12.053092] (-) TimerEvent: {}
+[12.154499] (-) TimerEvent: {}
+[12.255325] (-) TimerEvent: {}
+[12.358871] (-) TimerEvent: {}
+[12.460222] (-) TimerEvent: {}
+[12.561054] (-) TimerEvent: {}
+[12.661707] (-) TimerEvent: {}
+[12.762543] (-) TimerEvent: {}
+[12.863209] (-) TimerEvent: {}
+[12.963893] (-) TimerEvent: {}
+[13.064579] (-) TimerEvent: {}
+[13.165051] (-) TimerEvent: {}
+[13.265484] (-) TimerEvent: {}
+[13.365949] (-) TimerEvent: {}
+[13.466404] (-) TimerEvent: {}
+[13.566985] (-) TimerEvent: {}
+[13.668922] (-) TimerEvent: {}
+[13.772854] (-) TimerEvent: {}
+[13.873973] (-) TimerEvent: {}
+[13.979701] (-) TimerEvent: {}
+[14.080342] (-) TimerEvent: {}
+[14.183046] (-) TimerEvent: {}
+[14.283817] (-) TimerEvent: {}
+[14.384294] (-) TimerEvent: {}
+[14.484742] (-) TimerEvent: {}
+[14.585197] (-) TimerEvent: {}
+[14.685629] (-) TimerEvent: {}
+[14.787262] (-) TimerEvent: {}
+[14.887853] (-) TimerEvent: {}
+[14.988329] (-) TimerEvent: {}
+[15.089473] (-) TimerEvent: {}
+[15.192408] (-) TimerEvent: {}
+[15.293518] (-) TimerEvent: {}
+[15.394811] (-) TimerEvent: {}
+[15.499031] (-) TimerEvent: {}
+[15.599823] (-) TimerEvent: {}
+[15.701117] (-) TimerEvent: {}
+[15.801550] (-) TimerEvent: {}
+[15.902548] (-) TimerEvent: {}
+[16.003502] (-) TimerEvent: {}
+[16.104766] (-) TimerEvent: {}
+[16.209996] (-) TimerEvent: {}
+[16.310748] (-) TimerEvent: {}
+[16.412406] (-) TimerEvent: {}
+[16.513461] (-) TimerEvent: {}
+[16.613909] (-) TimerEvent: {}
+[16.714570] (-) TimerEvent: {}
+[16.815124] (-) TimerEvent: {}
+[16.915584] (-) TimerEvent: {}
+[17.017931] (-) TimerEvent: {}
+[17.119217] (-) TimerEvent: {}
+[17.220332] (-) TimerEvent: {}
+[17.320817] (-) TimerEvent: {}
+[17.421901] (-) TimerEvent: {}
+[17.523547] (-) TimerEvent: {}
+[17.624585] (-) TimerEvent: {}
+[17.734735] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[17.835894] (-) TimerEvent: {}
+[17.936431] (-) TimerEvent: {}
+[18.036921] (-) TimerEvent: {}
+[18.137371] (-) TimerEvent: {}
+[18.237835] (-) TimerEvent: {}
+[18.338245] (-) TimerEvent: {}
+[18.438739] (-) TimerEvent: {}
+[18.539174] (-) TimerEvent: {}
+[18.640488] (-) TimerEvent: {}
+[18.743635] (-) TimerEvent: {}
+[18.844655] (-) TimerEvent: {}
+[18.922722] (my_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target cpp_node\n'}
+[18.944917] (-) TimerEvent: {}
+[19.046209] (-) TimerEvent: {}
+[19.095574] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_no_oop_client.dir/src/add_two_ints_no_oop_client.cpp.o\x1b[0m\n'}
+[19.146347] (-) TimerEvent: {}
+[19.247022] (-) TimerEvent: {}
+[19.347859] (-) TimerEvent: {}
+[19.448612] (-) TimerEvent: {}
+[19.549934] (-) TimerEvent: {}
+[19.650591] (-) TimerEvent: {}
+[19.751363] (-) TimerEvent: {}
+[19.852190] (-) TimerEvent: {}
+[19.952879] (-) TimerEvent: {}
+[19.956173] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[20.053020] (-) TimerEvent: {}
+[20.153579] (-) TimerEvent: {}
+[20.254015] (-) TimerEvent: {}
+[20.354514] (-) TimerEvent: {}
+[20.454940] (-) TimerEvent: {}
+[20.555439] (-) TimerEvent: {}
+[20.655930] (-) TimerEvent: {}
+[20.756348] (-) TimerEvent: {}
+[20.800309] (my_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target add_two_ints_server\n'}
+[20.856902] (-) TimerEvent: {}
+[20.882707] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[20.957052] (-) TimerEvent: {}
+[21.057796] (-) TimerEvent: {}
+[21.162922] (-) TimerEvent: {}
+[21.268838] (-) TimerEvent: {}
+[21.379298] (-) TimerEvent: {}
+[21.487168] (-) TimerEvent: {}
+[21.594578] (-) TimerEvent: {}
+[21.695062] (-) TimerEvent: {}
+[21.797487] (-) TimerEvent: {}
+[21.898738] (-) TimerEvent: {}
+[21.999463] (-) TimerEvent: {}
+[22.100476] (-) TimerEvent: {}
+[22.201924] (-) TimerEvent: {}
+[22.303112] (-) TimerEvent: {}
+[22.405276] (-) TimerEvent: {}
+[22.506692] (-) TimerEvent: {}
+[22.607158] (-) TimerEvent: {}
+[22.707638] (-) TimerEvent: {}
+[22.808127] (-) TimerEvent: {}
+[22.908612] (-) TimerEvent: {}
+[23.009047] (-) TimerEvent: {}
+[23.109531] (-) TimerEvent: {}
+[23.210054] (-) TimerEvent: {}
+[23.311118] (-) TimerEvent: {}
+[23.411782] (-) TimerEvent: {}
+[23.512491] (-) TimerEvent: {}
+[23.587576] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[23.612674] (-) TimerEvent: {}
+[23.715249] (-) TimerEvent: {}
+[23.816293] (-) TimerEvent: {}
+[23.917356] (-) TimerEvent: {}
+[24.018008] (-) TimerEvent: {}
+[24.119913] (-) TimerEvent: {}
+[24.222593] (-) TimerEvent: {}
+[24.323815] (-) TimerEvent: {}
+[24.424638] (-) TimerEvent: {}
+[24.525867] (-) TimerEvent: {}
+[24.633181] (-) TimerEvent: {}
+[24.735136] (-) TimerEvent: {}
+[24.836824] (-) TimerEvent: {}
+[24.859987] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target robot_news_station\n'}
+[24.936964] (-) TimerEvent: {}
+[25.037618] (-) TimerEvent: {}
+[25.138332] (-) TimerEvent: {}
+[25.238782] (-) TimerEvent: {}
+[25.339819] (-) TimerEvent: {}
+[25.440394] (-) TimerEvent: {}
+[25.540856] (-) TimerEvent: {}
+[25.641379] (-) TimerEvent: {}
+[25.741854] (-) TimerEvent: {}
+[25.842309] (-) TimerEvent: {}
+[25.942774] (-) TimerEvent: {}
+[26.043221] (-) TimerEvent: {}
+[26.143725] (-) TimerEvent: {}
+[26.244233] (-) TimerEvent: {}
+[26.344731] (-) TimerEvent: {}
+[26.445802] (-) TimerEvent: {}
+[26.546275] (-) TimerEvent: {}
+[26.646709] (-) TimerEvent: {}
+[26.747155] (-) TimerEvent: {}
+[26.847741] (-) TimerEvent: {}
+[26.948452] (-) TimerEvent: {}
+[27.048856] (-) TimerEvent: {}
+[27.149239] (-) TimerEvent: {}
+[27.249696] (-) TimerEvent: {}
+[27.350094] (-) TimerEvent: {}
+[27.451166] (-) TimerEvent: {}
+[27.552736] (-) TimerEvent: {}
+[27.653251] (-) TimerEvent: {}
+[27.753709] (-) TimerEvent: {}
+[27.854367] (-) TimerEvent: {}
+[27.956191] (-) TimerEvent: {}
+[28.056677] (-) TimerEvent: {}
+[28.157082] (-) TimerEvent: {}
+[28.257516] (-) TimerEvent: {}
+[28.357963] (-) TimerEvent: {}
+[28.458535] (-) TimerEvent: {}
+[28.559082] (-) TimerEvent: {}
+[28.659815] (-) TimerEvent: {}
+[28.760369] (-) TimerEvent: {}
+[28.860859] (-) TimerEvent: {}
+[28.961351] (-) TimerEvent: {}
+[29.062177] (-) TimerEvent: {}
+[29.163065] (-) TimerEvent: {}
+[29.263487] (-) TimerEvent: {}
+[29.363946] (-) TimerEvent: {}
+[29.464449] (-) TimerEvent: {}
+[29.565268] (-) TimerEvent: {}
+[29.667240] (-) TimerEvent: {}
+[29.769967] (-) TimerEvent: {}
+[29.871153] (-) TimerEvent: {}
+[29.972350] (-) TimerEvent: {}
+[30.073466] (-) TimerEvent: {}
+[30.174166] (-) TimerEvent: {}
+[30.274896] (-) TimerEvent: {}
+[30.376150] (-) TimerEvent: {}
+[30.476846] (-) TimerEvent: {}
+[30.577592] (-) TimerEvent: {}
+[30.678577] (-) TimerEvent: {}
+[30.779783] (-) TimerEvent: {}
+[30.881198] (-) TimerEvent: {}
+[30.981897] (-) TimerEvent: {}
+[31.083158] (-) TimerEvent: {}
+[31.184250] (-) TimerEvent: {}
+[31.284687] (-) TimerEvent: {}
+[31.385795] (-) TimerEvent: {}
+[31.486768] (-) TimerEvent: {}
+[31.587680] (-) TimerEvent: {}
+[31.688458] (-) TimerEvent: {}
+[31.803712] (-) TimerEvent: {}
+[31.914043] (-) TimerEvent: {}
+[32.014714] (-) TimerEvent: {}
+[32.115805] (-) TimerEvent: {}
+[32.216551] (-) TimerEvent: {}
+[32.319635] (-) TimerEvent: {}
+[32.422629] (-) TimerEvent: {}
+[32.523315] (-) TimerEvent: {}
+[32.624006] (-) TimerEvent: {}
+[32.724422] (-) TimerEvent: {}
+[32.824870] (-) TimerEvent: {}
+[32.925303] (-) TimerEvent: {}
+[33.025752] (-) TimerEvent: {}
+[33.126167] (-) TimerEvent: {}
+[33.227060] (-) TimerEvent: {}
+[33.327744] (-) TimerEvent: {}
+[33.428209] (-) TimerEvent: {}
+[33.528668] (-) TimerEvent: {}
+[33.577022] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_no_oop_client\x1b[0m\n'}
+[33.580941] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[33.628818] (-) TimerEvent: {}
+[33.729219] (-) TimerEvent: {}
+[33.829959] (-) TimerEvent: {}
+[33.931722] (-) TimerEvent: {}
+[34.051009] (-) TimerEvent: {}
+[34.151472] (-) TimerEvent: {}
+[34.251880] (-) TimerEvent: {}
+[34.339681] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target add_two_ints_client\n'}
+[34.352172] (-) TimerEvent: {}
+[34.426685] (my_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target add_two_ints_no_oop_client\n'}
+[34.452345] (-) TimerEvent: {}
+[34.553177] (-) TimerEvent: {}
+[34.653991] (-) TimerEvent: {}
+[34.754431] (-) TimerEvent: {}
+[34.854996] (-) TimerEvent: {}
+[34.955322] (-) TimerEvent: {}
+[35.055774] (-) TimerEvent: {}
+[35.156336] (-) TimerEvent: {}
+[35.256778] (-) TimerEvent: {}
+[35.357191] (-) TimerEvent: {}
+[35.457811] (-) TimerEvent: {}
+[35.558312] (-) TimerEvent: {}
+[35.659127] (-) TimerEvent: {}
+[35.759599] (-) TimerEvent: {}
+[35.860032] (-) TimerEvent: {}
+[35.960505] (-) TimerEvent: {}
+[36.029638] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[36.060633] (-) TimerEvent: {}
+[36.161166] (-) TimerEvent: {}
+[36.261875] (-) TimerEvent: {}
+[36.362304] (-) TimerEvent: {}
+[36.462855] (-) TimerEvent: {}
+[36.563401] (-) TimerEvent: {}
+[36.663860] (-) TimerEvent: {}
+[36.764248] (-) TimerEvent: {}
+[36.864605] (-) TimerEvent: {}
+[36.965063] (-) TimerEvent: {}
+[36.988297] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[37.070675] (-) TimerEvent: {}
+[37.075654] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 'SIGINT'}
+[37.132064] (my_py_pkg) JobSkipped: {'identifier': 'my_py_pkg'}
+[37.132948] (-) EventReactorShutdown: {}

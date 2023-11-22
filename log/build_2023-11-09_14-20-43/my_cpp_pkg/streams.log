@@ -1,0 +1,86 @@
+[0.261s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_cpp_pkg
+[0.457s] -- The C compiler identification is GNU 11.4.0
+[0.719s] -- The CXX compiler identification is GNU 11.4.0
+[0.772s] -- Detecting C compiler ABI info
+[1.013s] -- Detecting C compiler ABI info - done
+[1.059s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.074s] -- Detecting C compile features
+[1.078s] -- Detecting C compile features - done
+[1.105s] -- Detecting CXX compiler ABI info
+[1.506s] -- Detecting CXX compiler ABI info - done
+[1.612s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.614s] -- Detecting CXX compile features
+[1.615s] -- Detecting CXX compile features - done
+[1.620s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.258s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.635s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.807s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.818s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.848s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.230s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.238s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.843s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.956s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.006s] -- Looking for pthread.h
+[4.292s] -- Looking for pthread.h - found
+[4.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.838s] -- Found Threads: TRUE  
+[5.824s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[7.356s] -- Configuring done
+[7.893s] -- Generating done
+[7.917s] -- Build files have been written to: /home/ant/ros2_ws/build/my_cpp_pkg
+[7.971s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_cpp_pkg
+[7.979s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[8.661s] [  8%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[8.693s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[8.695s] [ 25%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[8.838s] [ 33%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[38.262s] [ 41%] [32m[1mLinking CXX executable cpp_node[0m
+[39.345s] [ 41%] Built target cpp_node
+[41.346s] [ 50%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[42.665s] [ 50%] Built target add_two_ints_server
+[47.556s] [ 58%] [32m[1mLinking CXX executable robot_news_station[0m
+[48.248s] [ 58%] Built target robot_news_station
+[58.247s] [ 66%] [32m[1mLinking CXX executable smartphone[0m
+[59.257s] [ 66%] Built target smartphone
+[59.309s] [ 75%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[66.705s] [ 83%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[67.061s] [ 83%] Built target add_two_ints_client
+[67.094s] [ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_no_oop_client.dir/src/add_two_ints_no_oop_client.cpp.o[0m
+[74.001s] [100%] [32m[1mLinking CXX executable add_two_ints_no_oop_client[0m
+[74.323s] [100%] Built target add_two_ints_no_oop_client
+[74.362s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ant/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[74.450s] Invoking command in '/home/ant/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg
+[74.462s] -- Install configuration: ""
+[74.462s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[74.463s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[74.463s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[74.466s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[74.467s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[74.473s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[74.473s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[74.475s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[74.475s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_no_oop_client
+[74.477s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_no_oop_client" to ""
+[74.477s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[74.481s] -- Set runtime path of "/home/ant/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[74.485s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[74.487s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[74.488s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[74.489s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[74.489s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[74.490s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[74.490s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[74.491s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[74.492s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[74.493s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[74.493s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[74.495s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[74.497s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[74.500s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[74.500s] -- Installing: /home/ant/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[74.506s] Invoked command in '/home/ant/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ant/ros2_ws/build/my_cpp_pkg

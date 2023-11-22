@@ -1,0 +1,31 @@
+[1.586s] Invoking command in '/home/ant/ros2_ws/src/my_py_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.080s] running egg_info
+[2.081s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.081s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.082s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.082s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.082s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.087s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.089s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.089s] running build
+[2.090s] running build_py
+[2.091s] copying my_py_pkg/number_count.py -> /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.092s] running install
+[2.093s] running install_lib
+[2.095s] copying /home/ant/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_count.py -> /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.097s] byte-compiling /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_count.py to number_count.cpython-310.pyc
+[2.098s] running install_data
+[2.099s] running install_egg_info
+[2.103s] removing '/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.103s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.104s] running install_scripts
+[2.145s] Installing add_two_ints_client script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.146s] Installing add_two_ints_client_no_oop script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.146s] Installing add_two_ints_server script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.146s] Installing number_count script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.147s] Installing number_publisher script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.147s] Installing py_node script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.147s] Installing robot_news_station script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.147s] Installing smartphone script to /home/ant/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.148s] writing list of installed files to '/home/ant/ros2_ws/build/my_py_pkg/install.log'
+[2.190s] Invoked command in '/home/ant/ros2_ws/src/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ant/ros2_ws/build/my_py_pkg/prefix_override:/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ant/ros2_ws/build/my_py_pkg/build install --record /home/ant/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
