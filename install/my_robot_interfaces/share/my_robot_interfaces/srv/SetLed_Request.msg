@@ -1,2 +1,0 @@
-int64 led_number
-bool led_state

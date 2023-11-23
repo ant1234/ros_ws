@@ -1,5 +1,0 @@
-  File "/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_client.py", line 28
-    future.add_done_callback(partial(self.callback_call_set_led, led_number=led_number, led_number=led_state))
-                                                                                        ^^^^^^^^^^^^^^^^^^^^
-SyntaxError: keyword argument repeated: led_number
-

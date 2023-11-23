@@ -1,7 +1,0 @@
-[0.138s] Invoking command in '/home/ant/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_robot_interfaces
-[0.159s] [31mCMake Error at CMakeLists.txt:11:
-[0.159s]   Parse error.  Expected a command name, got unquoted argument with text "{".
-[0.159s] 
-[0.159s] [0m
-[0.160s] -- Configuring incomplete, errors occurred!
-[0.164s] Invoked command in '/home/ant/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ant/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_robot_interfaces

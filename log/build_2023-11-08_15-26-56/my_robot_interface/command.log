@@ -1,2 +1,0 @@
-Invoking command in '/home/ant/ros2_ws/build/my_robot_interface': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_robot_interface -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_robot_interface
-Invoked command in '/home/ant/ros2_ws/build/my_robot_interface' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ant/ros2_ws/src/my_robot_interface -DCMAKE_INSTALL_PREFIX=/home/ant/ros2_ws/install/my_robot_interface

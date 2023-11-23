@@ -1,5 +1,0 @@
-  File "/home/ant/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py", line 50
-    <class 'example_interfaces.msg._int64.Int64'>, got <class 'example_interfaces.msg._int64.Metaclass_Int64'>
-    ^
-SyntaxError: invalid syntax
-

@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001011] (-) JobUnselected: {'identifier': 'more_interfaces'}
-[0.001222] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
-[0.001551] (-) JobUnselected: {'identifier': 'my_py_pkg'}
-[0.001725] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
-[0.001851] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
-[0.002843] (-) EventReactorShutdown: {}
