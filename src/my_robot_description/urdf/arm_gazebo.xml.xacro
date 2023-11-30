@@ -21,9 +21,9 @@
             <update_rate>2</update_rate>
 
             <!-- name of joints in the model whose states will be published. -->
-            <base_joint>arm_base_joint</base_joint>
-            <forearm_joint>arm_base_forearm_joint</forearm_joint>
-            <hand_joint>forearm_hand_joint</hand_joint>
+            <joint_name>arm_base_joint</joint_name>
+            <joint_name>arm_base_forearm_joint</joint_name>
+            <joint_name>forearm_hand_joint</joint_name>
 
         </plugin>
 

@@ -38,7 +38,7 @@
             <geometry>
                 <cylinder radius="${cylinder_radius}" length="${cylinder_length}" />
             </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
+            <origin xyz="0 0 ${cylinder_length / 2}" rpy="0 0 0" />
             <material name="yellow" />
         </visual>
         <collision>
@@ -56,7 +56,7 @@
             <geometry>
                 <cylinder radius="${cylinder_radius}" length="${cylinder_length}" />
             </geometry>
-            <origin xyz="0 0 0" rpy="0 0 0" />
+            <origin xyz="0 0 ${cylinder_length / 2}" rpy="0 0 0" />
             <material name="orange" />
         </visual>
         <collision>
@@ -80,7 +80,7 @@
         <limit lower="0" upper="${pi / 2}" effort="100" velocity="100" />
         <parent link="arm_base_link" />
         <child link="forearm_link" />
-        <origin xyz="0 0 ${(cylinder_length / 2 + cuboid_height)}" rpy="0 0 0" />
+        <origin xyz="0 0 ${cuboid_height}" rpy="0 0 0" />
         <axis xyz="0 1 0" />
         <dynamics friction="0.05" damping="0.1" />
     </joint>
