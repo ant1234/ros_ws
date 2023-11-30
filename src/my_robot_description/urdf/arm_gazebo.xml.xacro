@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo reference="arm_base_link">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo reference="forearm_link">
+        <material>Gazebo/Yellow</material>
+    </gazebo>
+
+    <gazebo reference="hand_link">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo>
+        
+        <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+
+            <!-- update rate in hz -->
+            <update_rate>2</update_rate>
+
+            <!-- name of joints in the model whose states will be published. -->
+            <base_joint>arm_base_joint</base_joint>
+            <forearm_joint>arm_base_forearm_joint</forearm_joint>
+            <hand_joint>forearm_hand_joint</hand_joint>
+
+        </plugin>
+
+        <plugin name="joint_pose_trajectory" filename="libgazebo_ros_joint_pose_trajectory.so">
+
+            <!-- update rate in hz -->
+            <update_rate>2</update_rate>
+
+            <base_joint>arm_base_joint</base_joint>
+            <left_joint>arm_base_forearm_joint</left_joint>
+            <right_joint>forearm_hand_joint</right_joint>
+
+        </plugin>
+
+    </gazebo>
+
+</robot>
