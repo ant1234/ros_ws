@@ -21,7 +21,6 @@
             <update_rate>2</update_rate>
 
             <!-- name of joints in the model whose states will be published. -->
-            <joint_name>arm_base_joint</joint_name>
             <joint_name>arm_base_forearm_joint</joint_name>
             <joint_name>forearm_hand_joint</joint_name>
 
@@ -31,10 +30,6 @@
 
             <!-- update rate in hz -->
             <update_rate>2</update_rate>
-
-            <base_joint>arm_base_joint</base_joint>
-            <left_joint>arm_base_forearm_joint</left_joint>
-            <right_joint>forearm_hand_joint</right_joint>
 
         </plugin>
 
