@@ -29,7 +29,7 @@
             </geometry>
             <origin xyz="0 0 ${cuboid_height / 2}" rpy="0 0 0" />
         </collision>
-        <xacro:cuboid_inertia m="${cuboid_mass}" l="${2 * cuboid_length}" w="${2 * cuboid_width}" h="${2 * cuboid_height}" 
+        <xacro:cuboid_inertia m="${cuboid_mass}" l="${cuboid_length}" w="${cuboid_width}" h="${cuboid_height}" 
                               xyz="0 0 ${cuboid_height / 2.0}" rpy="0 0 0" />
     </link>
 
@@ -47,8 +47,8 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
-        <xacro:cylinder_inertia m="1.0" r="${2 * cylinder_radius}" h="${2 * cylinder_length}" 
-                                xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+        <xacro:cylinder_inertia m="${cylinder_mass}" r="${cylinder_radius}" h="${cylinder_length}" 
+                                xyz="0 0 ${cylinder_length / 2}" rpy="0 0 0" />
     </link>
 
     <link name="hand_link">
@@ -65,8 +65,8 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
-        <xacro:cylinder_inertia m="1.0" r="${2 * cylinder_radius}" h="${2 * cylinder_length}" 
-                                xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+        <xacro:cylinder_inertia m="${cylinder_mass}" r="${cylinder_radius}" h="${cylinder_length}" 
+                                xyz="0 0 ${cylinder_length / 2}" rpy="0 0 0" />
     </link>
 
     <!-- arm joints -->
