@@ -13,6 +13,6 @@
         <origin xyz="${base_length / 4.0} 0 ${base_height}" rpy="0 0 0" />
     </joint>
 
-    <xacro:include filename="camera.xml.xacro"/>
+    <!-- <xacro:include filename="camera.xml.xacro"/> -->
 
 </robot>
